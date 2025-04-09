@@ -21,8 +21,24 @@
         header h1 {
             margin: 0;
         }
+        nav {
+            background-color: #222;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
         section {
             padding: 20px;
+            margin: 0 10px;
         }
         h2 {
             color: #444;
@@ -60,30 +76,79 @@
         <h1>Motocross - Sport plný adrenalinu</h1>
     </header>
 
-    <section>
-        <h2>Co je motocross?</h2>
-        <p>Motocross je motoristický sport, který se odehrává na speciálních závodních tratích. Závody jsou plné náročných terénních překážek, jako jsou skoky, bahno a písečné úseky. Tento sport je oblíbený pro svou rychlost, adrenalin a technickou náročnost.</p>
+    <nav>
+        <a href="#co-je">Co je Motocross?</a>
+        <a href="#historie">Historie</a>
+        <a href="#typy">Typy závodů</a>
+        <a href="#technika">Motocrossová technika</a>
+        <a href="#bezpecnost">Bezpečnostní pravidla</a>
+        <a href="#slavni">Slavní závodníci</a>
+        <a href="#tymy">Motokrosové týmy</a>
+        <a href="#zacatecnici">Tipy pro začátečníky</a>
+    </nav>
 
+    <section id="co-je">
+        <h2>Co je Motocross?</h2>
+        <p>Motocross je motocyklový sport, který se odehrává na speciálně upravených terénních tratích. Závodníci závodí na motorkách určených k jízdě v náročném terénu, který může obsahovat skoky, písek, bahno a další překážky. Motocross je populární pro svou rychlost, adrenalin a technické nároky na jezdce.</p>
+    </section>
+
+    <section id="historie">
+        <h2>Historie Motocrossu</h2>
+        <p>Motocross vznikl v Británii v 20. letech 20. století. Původně šlo o neoficiální závody na motorkách, které se konaly na přírodních tratích. V roce 1924 se konal první oficiální závod, a od té doby se motocross začal rozvíjet jako profesionální sport. Dnes je motocross populární po celém světě a je součástí mistrovství světa.</p>
+    </section>
+
+    <section id="typy">
+        <h2>Typy závodů</h2>
         <div class="content">
             <div class="article">
-                <h2>Typy závodů</h2>
-                <p>Motocross se dělí na různé typy závodů, mezi které patří:</p>
-                <ul>
-                    <li>Supercross - závody na uměle vytvořených tratích v halách.</li>
-                    <li>Outdoor motocross - závody na otevřených tratích, které mohou zahrnovat různé terénní překážky.</li>
-                    <li>Enduro - závody na dlouhých a náročných trasách, které kombinují různé terény.</li>
-                </ul>
+                <h3>Supercross</h3>
+                <p>Supercross je forma motocrossu, která se koná na uměle vytvořených tratích v hale. Tyto závody jsou velmi populární v USA a mají rychlý a intenzivní charakter.</p>
             </div>
             <div class="article">
-                <h2>Vybavení pro motocross</h2>
-                <p>Pro bezpečnost a výkon závodníků je důležité kvalitní vybavení. To zahrnuje:</p>
-                <ul>
-                    <li>Helma - nejdůležitější ochranný prvek.</li>
-                    <li>Chrániče těla - chrání klouby a záda před zraněním.</li>
-                    <li>Motocrossová bunda a kalhoty - speciálně navržené pro komfort a ochranu při závodech.</li>
-                </ul>
+                <h3>Outdoor Motocross</h3>
+                <p>Outdoor motocross se jezdí na otevřených tratích, které mohou zahrnovat přírodní terén a náročné překážky, jako jsou skoky, bahno a písek.</p>
             </div>
         </div>
+    </section>
+
+    <section id="technika">
+        <h2>Motocrossová technika</h2>
+        <p>Motocrossové motocykly jsou navrženy speciálně pro závody v náročném terénu. Mají silné motory, velké odpružení a odolné pneumatiky. Technika jízdy v motocrossu je také klíčová – závodník musí umět efektivně používat brzdy, řízení a správně přenášet váhu na motorce při skocích a v zatáčkách.</p>
+    </section>
+
+    <section id="bezpecnost">
+        <h2>Bezpečnostní pravidla</h2>
+        <p>Bezpečnost je klíčová, a proto každý závodník musí mít kvalitní ochranné vybavení. To zahrnuje helmu, chrániče těla, chrániče páteře, rukavice a boty. Závodníci jsou také pravidelně školeni o bezpečném chování na trati a dodržování pravidel.</p>
+    </section>
+
+    <section id="slavni">
+        <h2>Slavní závodníci</h2>
+        <p>Mezi nejznámější závodníky, kteří se zapsali do historie motocrossu, patří:</p>
+        <ul>
+            <li>Ricky Carmichael - považován za jednoho z nejlepších motocrossových závodníků všech dob.</li>
+            <li>James Stewart - slavný americký závodník, který dominoval v kategorii 450cc.</li>
+            <li>Tony Cairoli - italský závodník, mnohonásobný mistr světa v motocrossu.</li>
+        </ul>
+    </section>
+
+    <section id="tymy">
+        <h2>Motokrosové týmy a značky</h2>
+        <p>V motocrossu existuje několik slavných týmů a značek, které se podílejí na vývoji motocyklů a podporují závodníky. Mezi nejznámější patří:</p>
+        <ul>
+            <li>Team Honda</li>
+            <li>Yamaha Factory Racing</li>
+            <li>KTM Racing Team</li>
+        </ul>
+    </section>
+
+    <section id="zacatecnici">
+        <h2>Tipy pro začátečníky</h2>
+        <p>Pokud chceš začít s motocrossem, tady je několik tipů:</p>
+        <ul>
+            <li>Začni s tréninkem na lehčím terénu, než se vrhneš na závody.</li>
+            <li>Investuj do kvalitního vybavení a chráničů.</li>
+            <li>Najdi si zkušeného trenéra, který tě naučí základní techniku a bezpečnostní pravidla.</li>
+        </ul>
     </section>
 
     <footer>
