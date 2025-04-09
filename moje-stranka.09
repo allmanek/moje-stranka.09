@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motocross - Sport plný adrenalinu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: #444;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .article {
+            background-color: white;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 20px;
+            width: 45%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Motocross - Sport plný adrenalinu</h1>
+    </header>
+
+    <section>
+        <h2>Co je motocross?</h2>
+        <p>Motocross je motoristický sport, který se odehrává na speciálních závodních tratích. Závody jsou plné náročných terénních překážek, jako jsou skoky, bahno a písečné úseky. Tento sport je oblíbený pro svou rychlost, adrenalin a technickou náročnost.</p>
+
+        <div class="content">
+            <div class="article">
+                <h2>Typy závodů</h2>
+                <p>Motocross se dělí na různé typy závodů, mezi které patří:</p>
+                <ul>
+                    <li>Supercross - závody na uměle vytvořených tratích v halách.</li>
+                    <li>Outdoor motocross - závody na otevřených tratích, které mohou zahrnovat různé terénní překážky.</li>
+                    <li>Enduro - závody na dlouhých a náročných trasách, které kombinují různé terény.</li>
+                </ul>
+            </div>
+            <div class="article">
+                <h2>Vybavení pro motocross</h2>
+                <p>Pro bezpečnost a výkon závodníků je důležité kvalitní vybavení. To zahrnuje:</p>
+                <ul>
+                    <li>Helma - nejdůležitější ochranný prvek.</li>
+                    <li>Chrániče těla - chrání klouby a záda před zraněním.</li>
+                    <li>Motocrossová bunda a kalhoty - speciálně navržené pro komfort a ochranu při závodech.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Motocross Fan</p>
+    </footer>
+
+</body>
+</html>
